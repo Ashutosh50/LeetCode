@@ -17,6 +17,13 @@ public class FindifDigitGameCanBeWon3232 {
     }
     public static void main(String[] args) {
         int[] num = {1,2,3,4,10};
+        FindifDigitGameCanBeWon3232 f= new FindifDigitGameCanBeWon3232();
+        boolean result=f.canAliceWin(num);
+        System.out.println(result);
+        if (result==false)
+            System.out.println("Cant win");
+        else
+        System.out.println("Can win");
 //        int oneDsum=0;
 //        int twoDsum=0;
 //        for(int i=0;i<num.length;i++)
